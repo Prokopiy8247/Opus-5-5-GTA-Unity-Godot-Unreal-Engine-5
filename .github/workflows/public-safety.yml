@@ -1,0 +1,32 @@
+name: Public repository safety
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Reject oversized Git blobs
+        shell: bash
+        run: |
+          set -euo pipefail
+          git ls-files -z | while IFS= read -r -d '' file; do
+            size=$(wc -c < "$file")
+            if [ "$size" -gt 99000000 ]; then
+              echo "File exceeds GitHub's 100 MB limit: $file ($size bytes)"
+              exit 1
+            fi
+          done
+      - name: Scan tracked text for common secrets and local paths
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git grep -I -n -E '(github_pat_[A-Za-z0-9_]{20,}|ghp_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9_-]{20,}|BEGIN [A-Z ]*PRIVATE KEY|SecurityToken=|C:\\Users\\|/Users/[^/]+/\.codex|/Users/[^/]+/\.claude)' -- . ':!**/Claude_Opus_5.5_UnrealEngine5_GTA_BlenderMCP_Prompt.md' ':!.github/workflows/public-safety.yml'; then
+            echo 'Potential secret or private local path found.'
+            exit 1
+          fi

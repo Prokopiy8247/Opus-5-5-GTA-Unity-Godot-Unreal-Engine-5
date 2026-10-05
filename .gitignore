@@ -1,0 +1,35 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.vs/
+
+# Unreal generated data (inside any engine project folder)
+**/Binaries/
+**/Build/
+!**/Build/**/*.ico
+**/DerivedDataCache/
+**/Intermediate/
+**/Saved/
+**/Packaged/
+**/Builds/
+**/*.sln
+**/*.slnx
+**/*.VC.db
+**/*.opensdf
+
+# Blender automatic backups
+**/*.blend1
+**/*.blend2
+
+# Sensitive/local environment files
+**/.env
+**/.env.*
+**/*credentials*
+**/*secrets*
+**/.opus-*-runs/
+
+# Python cache
+**/__pycache__/
+**/*.pyc

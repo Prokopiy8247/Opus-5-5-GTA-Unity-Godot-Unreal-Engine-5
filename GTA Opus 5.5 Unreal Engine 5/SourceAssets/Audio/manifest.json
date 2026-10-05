@@ -1,0 +1,257 @@
+[
+  {
+    "name": "S_Amb_City",
+    "loop": true,
+    "duration": 4.0
+  },
+  {
+    "name": "S_CarAlarm",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_ChuteOpen",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Click",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Clink",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Cloth",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Crash",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_CrashBig",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_DoorClose",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_DoorOpen",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_DryFire",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Engine_Bike",
+    "loop": true,
+    "duration": 4.0
+  },
+  {
+    "name": "S_Engine_Boat",
+    "loop": true,
+    "duration": 4.0
+  },
+  {
+    "name": "S_Engine_Car",
+    "loop": true,
+    "duration": 4.0
+  },
+  {
+    "name": "S_Engine_Jet",
+    "loop": true,
+    "duration": 4.0
+  },
+  {
+    "name": "S_Engine_Prop",
+    "loop": true,
+    "duration": 4.0
+  },
+  {
+    "name": "S_Engine_Truck",
+    "loop": true,
+    "duration": 4.0
+  },
+  {
+    "name": "S_Equip",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Explosion",
+    "loop": false,
+    "duration": 2.5
+  },
+  {
+    "name": "S_Grunt",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Gun_Pistol",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Gun_Rifle",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Gun_Shotgun",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Gun_Suppressed",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Horn",
+    "loop": true,
+    "duration": 4.0
+  },
+  {
+    "name": "S_ImpactMetal",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Launcher",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Pickup",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Pickup_Cash",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Punch",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Radio_1",
+    "loop": true,
+    "duration": 16.0
+  },
+  {
+    "name": "S_Radio_2",
+    "loop": true,
+    "duration": 16.0
+  },
+  {
+    "name": "S_Radio_3",
+    "loop": true,
+    "duration": 16.0
+  },
+  {
+    "name": "S_Rain",
+    "loop": true,
+    "duration": 4.0
+  },
+  {
+    "name": "S_Reload",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Rotor",
+    "loop": true,
+    "duration": 4.0
+  },
+  {
+    "name": "S_Scream",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Siren",
+    "loop": true,
+    "duration": 4.0
+  },
+  {
+    "name": "S_Skid",
+    "loop": true,
+    "duration": 4.0
+  },
+  {
+    "name": "S_Swish",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Thud",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Thunder",
+    "loop": false,
+    "duration": 2.5
+  },
+  {
+    "name": "S_TirePop",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_UI_Back",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_UI_Buy",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_UI_Error",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_UI_Open",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_UI_Select",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_UI_Tick",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_WantedUp",
+    "loop": false,
+    "duration": 0.45
+  },
+  {
+    "name": "S_Wrench",
+    "loop": false,
+    "duration": 0.45
+  }
+]
