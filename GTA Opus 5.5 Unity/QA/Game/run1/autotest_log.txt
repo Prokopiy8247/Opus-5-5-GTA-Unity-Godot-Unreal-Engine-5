@@ -1,0 +1,51 @@
+8,0s player spawned at (111.75, 2.18, 154.60) grounded=True fps=178
+11,5s district Halcyon Plaza pos=(0.00, 2.18, -10.00) fps=178 vehicles=70 actors=25
+14,7s district Skyline Parking pos=(60.00, 2.03, 9.70) fps=164 vehicles=74 actors=36
+17,8s district Halcyon General pos=(60.00, 13.78, 33.50) fps=142 vehicles=76 actors=47
+20,9s district Palm Row Park pos=(60.00, 2.18, 110.00) fps=113 vehicles=80 actors=51
+24,0s district Palm Row pos=(111.75, 2.18, 168.20) fps=142 vehicles=80 actors=45
+27,1s district Saltwater Docks pos=(-222.00, 2.18, 10.00) fps=127 vehicles=65 actors=13
+30,2s district North Beach pos=(-228.00, 0.15, 180.00) fps=163 vehicles=66 actors=20
+33,3s district Lighthouse Point pos=(-228.00, 5.53, 294.00) fps=180 vehicles=65 actors=16
+36,4s district Crown Hill pos=(-106.00, 33.96, 191.00) fps=180 vehicles=68 actors=23
+39,5s district Halcyon Airfield pos=(0.00, 2.03, -204.00) fps=172 vehicles=64 actors=4
+42,6s district Ironside Yards pos=(218.00, 2.03, -50.00) fps=165 vehicles=67 actors=8
+45,0s vehicle compact spawned=True pos=(0.00, 3.43, -21.00) seats=4
+46,2s vehicle sedan spawned=True pos=(0.00, 3.44, -21.00) seats=4
+47,5s vehicle sports spawned=True pos=(0.00, 3.44, -21.00) seats=2
+48,7s vehicle muscle spawned=True pos=(0.00, 3.44, -21.00) seats=4
+49,9s vehicle suv spawned=True pos=(0.00, 3.46, -21.00) seats=4
+51,1s vehicle pickup spawned=True pos=(0.00, 3.46, -21.00) seats=2
+52,3s vehicle van spawned=True pos=(0.00, 3.44, -21.00) seats=4
+53,5s vehicle police spawned=True pos=(0.00, 3.44, -21.00) seats=4
+54,7s vehicle taxi spawned=True pos=(0.00, 3.44, -21.00) seats=4
+55,9s vehicle ambulance spawned=True pos=(0.00, 3.47, -21.00) seats=2
+57,1s vehicle firetruck spawned=True pos=(0.00, 3.06, -20.98) seats=2
+58,3s vehicle truck spawned=True pos=(0.00, 3.11, -20.99) seats=2
+59,5s vehicle swat spawned=True pos=(0.00, 3.49, -21.00) seats=2
+60,7s vehicle motorbike spawned=True pos=(0.00, 3.46, -21.00) seats=1
+61,9s vehicle bicycle spawned=True pos=(0.00, 3.47, -21.01) seats=1
+63,2s vehicle speedboat spawned=True pos=(0.00, 3.40, -21.00) seats=4
+64,4s vehicle heli spawned=True pos=(0.00, 3.35, -21.00) seats=4
+65,6s vehicle policeheli spawned=True pos=(0.00, 3.35, -21.00) seats=4
+66,8s vehicle plane spawned=True pos=(0.00, 3.28, -21.01) seats=2
+68,0s vehicle jet spawned=True pos=(0.00, 3.24, -20.99) seats=1
+72,4s drive test: moved 0,4 m, speed 0 km/h
+74,9s weapon fists equipped=True model=False
+75,5s weapon knife equipped=True model=True
+76,1s weapon bat equipped=True model=True
+76,6s weapon crowbar equipped=True model=True
+77,2s weapon pistol equipped=True model=True
+77,7s weapon revolver equipped=True model=True
+78,3s weapon smg equipped=True model=True
+78,8s weapon shotgun equipped=True model=True
+79,4s weapon autoshotgun equipped=True model=True
+80,0s weapon rifle equipped=True model=True
+80,5s weapon carbine equipped=True model=True
+81,1s weapon dmr equipped=True model=True
+81,6s weapon sniper equipped=True model=True
+82,2s weapon grenade equipped=True model=True
+82,8s weapon rpg equipped=True model=True
+83,3s weapon gl equipped=True model=True
+95,3s wanted=4 pursuing=False policeVehicles=0
+99,3s final fps=114

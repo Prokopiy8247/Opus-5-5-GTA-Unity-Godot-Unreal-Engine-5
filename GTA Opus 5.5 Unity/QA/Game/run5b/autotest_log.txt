@@ -1,0 +1,26 @@
+7,3s PASS boot.player :: spawn (110.25, 2.18, 138.30)
+7,3s PASS boot.database :: prefabs=143
+7,3s PASS boot.no_missions :: free roam start (no mission system exists in code)
+7,4s PASS world.interactables_reachable :: 30/30 interaction points reachable
+11,1s PASS vehicle.enter.sedan :: player seat=0
+17,1s drive diag sedan: engineOn=True kinematic=False mass=1400 driver=True wheels=4 [WC_WHEEL_FL g=1 mt=0 bt=0 rpm=654 r=0,34] [WC_WHEEL_FR g=1 mt=0 bt=0 rpm=654 r=0,34] [WC_WHEEL_RL g=1 mt=1050 bt=0 rpm=774 r=0,34] [WC_WHEEL_RR g=1 mt=1050 bt=0 rpm=774 r=0,34] throttle=1,00
+17,1s PASS drive.sedan :: moved 69,0 m in 6 s, top 84 km/h
+20,8s PASS drive.steer_brake.sedan :: turned 69 deg, speed after brake 44 km/h
+24,4s PASS vehicle.exit.sedan :: on foot at (-0.01, 2.03, -274.24) state=Ground cc=True
+26,6s PASS vehicle.enter.motorbike :: player seat=0
+32,6s drive diag motorbike: engineOn=True kinematic=False mass=220 driver=True 
+32,6s PASS drive.motorbike :: moved 52,4 m in 6 s, top 64 km/h
+36,3s PASS drive.steer_brake.motorbike :: turned 169 deg, speed after brake 30 km/h
+44,4s PASS vehicle.exit.motorbike :: on foot at (-13.36, 2.03, -227.13) state=Ground cc=True
+46,6s PASS vehicle.enter.bicycle :: player seat=0
+52,6s drive diag bicycle: engineOn=True kinematic=False mass=60 driver=True 
+52,6s PASS drive.bicycle :: moved 36,6 m in 6 s, top 39 km/h
+56,3s PASS drive.steer_brake.bicycle :: turned 122 deg, speed after brake 2 km/h
+58,4s PASS vehicle.exit.bicycle :: on foot at (-96.92, 2.03, -246.77) state=Ground cc=True
+65,1s PASS vehicle.carjack :: player took the driver seat=True, previous driver out=True, wanted=0
+66,6s FAIL vehicle.stolen_car_obeys_player :: AI removed=True, speed 0 km/h under player input
+71,8s plane geometry: pivotY=1,91 boundsMinY(local)=0,00 collidersMinY(world)=2,00 groundY=2,00 colliders=17
+71,8s plane boarded: state=Vehicle inVehicle=True seat=0 parent=VEH_Plane
+80,8s plane diag: destroyed=False hp=660 engine=True driver=True kinematic=False vel=(37.7, 0.6, -0.6) lever=1,00 lift=1,0 pos=(57.6, 2.2, -246.7) state=Vehicle
+88,0s PASS air.plane :: top 137 km/h, climbed 10,9 m
+88,0s SUMMARY pass=18 fail=1 fps_avg=172 fps_min=119

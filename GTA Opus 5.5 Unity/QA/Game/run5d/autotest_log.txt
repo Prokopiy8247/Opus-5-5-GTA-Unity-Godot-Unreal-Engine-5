@@ -1,0 +1,9 @@
+PASS boot.player :: spawn (110.25, 2.18, 138.30)
+PASS boot.database :: prefabs=143
+PASS boot.no_missions :: free roam start (no mission system exists in code)
+PASS world.interactables_reachable :: 30/30 interaction points reachable
+FAIL traffic.moving :: 5/7 AI cars moved >6 m in 5 s; traffic-light props=214
+PASS traffic.stays_on_road :: 9 civilian AI cars watched for 28 s: off the road=0, never moved=0
+PASS vehicle.carjack :: player took the driver seat=True, previous driver out=True, wanted=0
+PASS vehicle.stolen_car_obeys_player :: AI removed=True, speed 23 km/h under player input
+SUMMARY pass=7 fail=1 fps_avg=155 fps_min=125

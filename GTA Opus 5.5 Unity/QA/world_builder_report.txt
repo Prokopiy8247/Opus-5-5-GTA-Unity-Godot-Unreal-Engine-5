@@ -1,0 +1,9 @@
+buildings=144
+props=2094
+nature=848
+interactions=40
+vehicleSpawns=50
+pedSpots=680
+roads=111
+landmarks=11
+missing(0)=

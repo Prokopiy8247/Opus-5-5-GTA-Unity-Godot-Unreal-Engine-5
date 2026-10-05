@@ -1,0 +1,22 @@
+7,2s PASS boot.player :: spawn (110.25, 2.18, 138.30)
+7,2s PASS boot.database :: prefabs=143
+7,2s PASS boot.no_missions :: free roam start (no mission system exists in code)
+7,2s PASS world.interactables_reachable :: 30/30 interaction points reachable
+7,2s weapons test at (-30, 2, -247) yaw 90
+39,0s PASS weapons.fire_all :: 11/11 ranged weapons fired and consumed ammo; catalog=16
+43,0s PASS weapons.reload :: clip 25 -> 30
+49,3s rpg fired=True carDist=14,0
+50,7s PASS weapons.explosive_vs_vehicle :: car health 1000 -> 341 destroyed=False
+52,8s wanted test: people within 40 m = 5
+57,9s PASS wanted.crime_raises_level :: after shooting a civilian: stars=3 victimDead=True
+84,1s PASS police.dispatch :: max police cars=9 officers=14 heli=True at 3 stars (3 now)
+84,1s PASS police.helicopter :: police helicopter spawned at 3+ stars
+84,1s police: pursuing=False search=0,54 lastKnown=(-6.00, 2.18, -24.00)
+107,2s PASS wanted.escape_by_search_timeout :: 1 star lost after hiding out of sight for 23 s
+118,9s rocket at van fired=True, health before=452
+119,4s vehicle damage: smoking/low health after gunfire=False
+120,4s PASS vehicle.damage_explosion :: health after gunfire 452; destroyed=True
+125,3s PASS police.busted :: busted=True, released 0 m from the police station, stars=0
+125,4s PLAYER DIED during busted at (-63, 2, -20): Fall 5000 by -
+133,5s PASS player.death_respawn :: respawned 0 m from the hospital with hp 200
+133,5s SUMMARY pass=14 fail=0 fps_avg=170 fps_min=97

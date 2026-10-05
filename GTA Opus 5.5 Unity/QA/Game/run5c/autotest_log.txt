@@ -1,0 +1,19 @@
+PASS boot.player :: spawn (110.25, 2.18, 138.30)
+PASS boot.database :: prefabs=143
+PASS boot.no_missions :: free roam start (no mission system exists in code)
+PASS world.interactables_reachable :: 30/30 interaction points reachable
+PASS traffic.moving :: 7/8 AI cars moved >6 m in 5 s; traffic-light props=214
+traffic: car off the road at (167, 2, -121), 8,5 m from the nearest lane centre
+traffic: car off the road at (-82, 2, -87), 5,2 m from the nearest lane centre
+FAIL traffic.stays_on_road :: 10 civilian AI cars watched for 28 s: off the road=2, never moved=0
+PASS vehicle.carjack :: player took the driver seat=True, previous driver out=True, wanted=0
+FAIL vehicle.stolen_car_obeys_player :: AI removed=True, speed 0 km/h under player input
+wanted test: people within 40 m = 5
+PASS wanted.crime_raises_level :: after shooting a civilian: stars=3 victimDead=True
+PASS police.dispatch :: max police cars=9 officers=14 heli=True at 3 stars (3 now)
+PASS police.helicopter :: police helicopter spawned at 3+ stars
+police: pursuing=False search=0,16 lastKnown=(-6.00, 2.18, -24.00)
+PASS wanted.escape_by_search_timeout :: 1 star lost after hiding out of sight for 23 s
+PASS world.taxi :: taxi arrived (27 m away when checked), rode as passenger=True, now 32 m from the airfield, fare 19
+PASS world.wildlife :: 13 animals active (ANI_Rabbit,ANI_Deer,ANI_Cat,ANI_Coyote,ANI_Boar)
+SUMMARY pass=12 fail=2 fps_avg=148 fps_min=89

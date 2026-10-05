@@ -1,0 +1,58 @@
+# --- Unity transient data ---
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/.opus-5.5-gta-runs/
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+crashlytics-build.properties
+
+# --- IDE / generated solution files ---
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.unityproj
+ExportedObj/
+.consulo/
+
+# --- Blender transient / technical backups (master .blend IS committed) ---
+*.blend1
+*.blend2
+/BlenderBackups/
+/_BlenderExport_tmp/
+
+# --- QA output ---
+/QA/Screens/tmp/
+QA/Game/player_*.log
+QA/Game/run*/player_log.txt
+
+# QA: keep logs and contact sheets, not every raw autotest frame
+QA/Game/run*/*.png
+!QA/Game/run*/sheet_*.png
+*.blend1
+
+# --- Local release packaging / credentials ---
+/ReleaseArtifacts/
+*.pfx
+*.p12
+*.keystore
+*.jks
+*.pem
+*.key
+*.mobileprovision

@@ -9,7 +9,15 @@
 |---|---|---|
 | Godot | [GTA Opus 5.5 Godot](./GTA%20Opus%205.5%20Godot/) | Опубликован — Vesper Bay |
 | Unreal Engine 5 | [GTA Opus 5.5 Unreal Engine 5](./GTA%20Opus%205.5%20Unreal%20Engine%205/) | Опубликован — Port Halcyon |
-| Unity | `GTA Opus 5.5 Unity` | Будет добавлен отдельно |
+| Unity | [GTA Opus 5.5 Unity](./GTA%20Opus%205.5%20Unity/) | Опубликован — Port Halcyon |
+
+## Быстро скачать Unity-версию
+
+- [Port Halcyon — Windows x64](https://github.com/Prokopiy8247/Opus-5-5-GTA-Unity-Godot-Unreal-Engine-5/releases/download/unity-v0.1.0/Port-Halcyon-Windows-x64.zip)
+- [Port Halcyon — macOS Universal (Intel + Apple Silicon)](https://github.com/Prokopiy8247/Opus-5-5-GTA-Unity-Godot-Unreal-Engine-5/releases/download/unity-v0.1.0/Port-Halcyon-macOS-Universal.tar.gz)
+- [Инструкция для Windows и macOS](GTA%20Opus%205.5%20Unity/START_HERE.md)
+
+Unity устанавливать не нужно: распакуйте архив своей платформы и запустите игру. macOS-сборка не подписана Apple Developer ID, поэтому при первом запуске следуйте инструкции по Gatekeeper.
 
 ## Быстро скачать Godot-версию
 

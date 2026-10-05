@@ -1,0 +1,84 @@
+7,4s PASS boot.player :: spawn (111.75, 2.18, 154.60)
+7,4s PASS boot.database :: prefabs=143
+7,4s PASS boot.no_missions :: free roam start (no mission system exists in code)
+9,8s district Halcyon Plaza pos=(0.00, 2.18, -10.00) fps=180 vehicles=78 actors=18
+12,2s district Skyline Parking pos=(60.00, 2.03, 9.70) fps=180 vehicles=80 actors=27
+14,6s district Halcyon General pos=(60.00, 13.78, 33.50) fps=180 vehicles=83 actors=34
+17,1s district Palm Row Park pos=(60.00, 2.18, 110.00) fps=178 vehicles=87 actors=40
+19,5s district Palm Row pos=(111.75, 2.18, 168.20) fps=160 vehicles=87 actors=41
+21,9s district Saltwater Docks pos=(-222.00, 2.18, 10.00) fps=174 vehicles=80 actors=31
+24,3s district North Beach pos=(-228.00, 0.15, 180.00) fps=180 vehicles=77 actors=21
+26,7s district Lighthouse Point pos=(-228.00, 5.53, 294.00) fps=180 vehicles=75 actors=15
+29,2s district Crown Hill pos=(-106.00, 33.96, 191.00) fps=180 vehicles=76 actors=19
+31,6s district Halcyon Airfield pos=(0.00, 2.03, -204.00) fps=176 vehicles=77 actors=6
+34,0s district Ironside Yards pos=(218.00, 2.03, -50.00) fps=174 vehicles=80 actors=10
+34,0s PASS world.districts :: 11 landmarks visited
+36,1s vehicle compact size=(1.9, 1.7, 4.3) seats=4
+37,1s vehicle sedan size=(2.0, 1.5, 5.0) seats=4
+38,1s vehicle sports size=(2.1, 1.3, 4.9) seats=2
+39,1s vehicle muscle size=(2.1, 1.4, 5.4) seats=4
+40,2s vehicle suv size=(2.1, 2.1, 5.2) seats=4
+41,2s vehicle pickup size=(2.2, 1.9, 5.7) seats=2
+42,2s vehicle van size=(2.3, 2.3, 5.6) seats=4
+43,3s vehicle police size=(2.0, 1.6, 5.0) seats=4
+44,3s vehicle taxi size=(2.0, 1.6, 5.0) seats=4
+45,3s vehicle ambulance size=(2.6, 3.3, 6.4) seats=2
+46,3s vehicle firetruck size=(2.8, 3.5, 9.0) seats=2
+47,4s vehicle truck size=(2.7, 3.6, 7.6) seats=2
+48,4s vehicle swat size=(2.7, 3.2, 6.2) seats=2
+49,4s vehicle motorbike size=(0.7, 1.2, 2.1) seats=1
+50,5s vehicle bicycle size=(0.6, 1.0, 1.8) seats=1
+51,5s vehicle speedboat size=(2.3, 2.0, 6.8) seats=4
+52,5s vehicle heli size=(9.6, 3.1, 10.9) seats=4
+53,6s vehicle policeheli size=(9.6, 3.1, 10.9) seats=4
+54,6s vehicle plane size=(11.5, 3.1, 8.4) seats=2
+55,6s vehicle jet size=(11.0, 3.5, 12.8) seats=1
+55,6s PASS vehicles.spawn_all :: 20/20 vehicle types spawned from Blender prefabs
+61,0s PASS player.walk_sprint_jump :: walk 8,3 m/2s, sprint 13,5 m/2s, jump 0,80 m
+65,7s PASS vehicle.enter.sedan :: player seat=0
+71,7s drive diag sedan: engineOn=True kinematic=False mass=1400 driver=True wheels=4 [WC_WHEEL_FL g=1 mt=0 bt=0 rpm=357 r=0,34] [WC_WHEEL_FR g=1 mt=0 bt=0 rpm=357 r=0,34] [WC_WHEEL_RL g=1 mt=800 bt=0 rpm=410 r=0,34] [WC_WHEEL_RR g=1 mt=800 bt=0 rpm=410 r=0,34] throttle=1,00
+71,7s PASS drive.sedan :: moved 28,1 m in 6 s, top 46 km/h
+75,4s PASS drive.steer_brake.sedan :: turned 71 deg, speed after brake 6 km/h
+78,6s PASS vehicle.exit.sedan :: on foot at (-122.07, 2.03, -266.39)
+82,3s FAIL vehicle.enter.motorbike :: player seat=0
+88,3s drive diag motorbike: engineOn=False kinematic=False mass=220 driver=False 
+88,3s FAIL drive.motorbike :: moved 0,0 m in 6 s, top 0 km/h
+92,0s FAIL drive.steer_brake.motorbike :: turned 0 deg, speed after brake 0 km/h
+95,1s PASS vehicle.exit.motorbike :: on foot at (-171.00, 2.03, -245.65)
+104,1s PASS traffic.moving :: 4/10 AI cars moved >6 m in 5 s; traffic-light props=214
+111,0s FAIL peds.population :: 4 pedestrians within 60 m (4 ambient)
+111,0s PASS peds.react_gunfire :: 4/5 reacted (flee/panic/cover/combat) to gunfire; wanted=0
+133,2s weapon gl fire=False clip 6->6
+133,2s FAIL weapons.fire_all :: 10/11 ranged weapons fired and consumed ammo; catalog=16
+137,3s PASS weapons.reload :: clip 23 -> 30
+140,2s FAIL weapons.explosive_vs_vehicle :: car health 1000 -> 1000 destroyed=False
+141,7s PASS player.cover :: state=Cover wallFound=True
+142,8s PASS player.stealth_crouch :: crouching=True noise=0,00
+145,6s PASS combat.melee :: npc health 100 -> 0
+145,6s wanted after melee=0
+148,4s PASS vehicle.driveby :: SMG rounds fired while driving: 15 (aim=True)
+156,4s PASS wanted.crime_raises_level :: after shooting a civilian: stars=2 victimDead=True
+182,7s PASS police.dispatch :: max police cars=9 officers=17 heli=True at 3 stars (3 now)
+182,7s PASS police.helicopter :: police helicopter spawned at 3+ stars
+182,7s police: pursuing=False search=0,41 lastKnown=(-6.00, 2.18, -24.00)
+205,8s PASS wanted.escape_by_search_timeout :: 1 star lost after hiding out of sight for 23 s
+217,6s PASS air.heli :: climbed 98,9 m in 6 s, flew 20,0 m forward in 3 s
+235,8s FAIL air.plane :: top 0 km/h, climbed 0,0 m
+242,8s FAIL water.boat :: moved 12,3 m in 5 s, hull y=0,21
+249,8s PASS water.swim :: state=Swim swam 3,8 m/2s
+249,8s PASS water.dive :: underwater=True breath=0,87
+257,4s PASS player.parachute :: freefall=True state=Parachute sink 4,7 m/s
+297,8s FAIL player.parachute_landing :: landed state=Swim hp=2
+303,0s PASS vehicle.mods_repair :: torque x1,62 health 1000/1000
+304,9s PASS save.load_roundtrip :: money 49638 -> 7 -> 49638 after Load()
+312,0s PASS world.taxi :: taxi called, distance to player 15 m
+317,0s PASS world.wildlife :: 20 animals active (ANI_Boar,ANI_Cat,ANI_Coyote,ANI_Deer,ANI_Rabbit,ANI_Dog)
+329,9s vehicle damage: smoking/low health after gunfire=False
+330,9s FAIL vehicle.damage_explosion :: health after gunfire 597; destroyed=False
+331,4s PASS ui.admin_menu :: F1 admin/benchmark menu opened
+332,3s PASS ui.map :: full map opened
+333,0s PASS ui.weapon_wheel :: weapon wheel opened
+333,9s PASS ui.phone :: phone opened
+334,7s PASS ui.pause :: pause menu opened
+343,9s PASS world.time_weather :: hour=07:01 weather=Fog
+343,9s SUMMARY pass=36 fail=10 fps_avg=163 fps_min=75
