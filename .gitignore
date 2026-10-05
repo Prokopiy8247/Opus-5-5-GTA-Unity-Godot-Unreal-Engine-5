@@ -1,6 +1,7 @@
 # OS and editor noise
 .DS_Store
 Thumbs.db
+desktop.ini
 .idea/
 .vscode/
 .vs/
@@ -26,6 +27,7 @@ Thumbs.db
 # Sensitive/local environment files
 **/.env
 **/.env.*
+!**/.env.example
 **/*credentials*
 **/*secrets*
 **/.opus-*-runs/

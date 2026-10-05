@@ -1,0 +1,30 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Export / build outputs
+/build/
+/export/
+*.tmp
+
+# Blender autosave/backup copies (master .blend is tracked; backups are local only)
+*.blend1
+*.blend2
+/blender_backups/
+
+# Logs
+*.log
+/logs/
+
+# Benchmark run scratch data (reports, API dumps and screenshots are local-only)
+/.opus-5.5-gta-runs/
+
+# Local editor / OS metadata and credentials
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
