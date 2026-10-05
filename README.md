@@ -23,5 +23,12 @@ Godot устанавливать не нужно. Инструкции для н
 Для запуска Unreal-версии следуйте инструкции в её папке или откройте соответствующий GitHub
 Release.
 
+## Быстро скачать Unreal Engine 5-версию
+
+- [Port Halcyon — Windows x64](https://github.com/Prokopiy8247/Opus-5-5-GTA-Unity-Godot-Unreal-Engine-5/releases/download/unreal-v0.1.0/Port-Halcyon-Windows-x64.zip)
+- [Инструкция Windows и macOS](GTA%20Opus%205.5%20Unreal%20Engine%205/LAUNCH_GUIDE.md)
+
+Windows-сборка запускается без Unreal Editor. Для macOS проект необходимо один раз собрать на Mac с Unreal Engine 5.8.x и Xcode; готовые сценарии запуска и сборки находятся в папке проекта.
+
 Исходные промпты сохранены внутри папок проектов. Репозиторий не содержит игровые движки, платные
 наборы ассетов, ключи API, токены, локальные журналы или данные агентских сессий.
